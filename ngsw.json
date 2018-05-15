@@ -1,0 +1,69 @@
+{
+  "configVersion": 1,
+  "index": "/arithmeticquiz/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/arithmeticquiz/0.cfaa289e34a13b404798.chunk.js",
+        "/arithmeticquiz/1.9477414d5e4bddccebd6.chunk.js",
+        "/arithmeticquiz/2.72986349f88c5c1dfd18.chunk.js",
+        "/arithmeticquiz/favicon.ico",
+        "/arithmeticquiz/index.html",
+        "/arithmeticquiz/inline.0dee458fdffa1adce313.bundle.js",
+        "/arithmeticquiz/main.16c40dbf77fd8617f6dd.bundle.js",
+        "/arithmeticquiz/polyfills.cd6b2adf65942bf28804.bundle.js",
+        "/arithmeticquiz/styles.af60dc5709b8030e14eb.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/arithmeticquiz/assets/icon-128x128.png",
+        "/arithmeticquiz/assets/icon-152x152.png",
+        "/arithmeticquiz/assets/icon-256x256.png",
+        "/arithmeticquiz/assets/icon-512x512.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/arithmeticquiz/0.cfaa289e34a13b404798.chunk.js": "ade945e99b802f2e7059a382e00c17eba23b7785",
+    "/arithmeticquiz/1.9477414d5e4bddccebd6.chunk.js": "e7efc9a607d0d947a1337099c8f92e83b0daf5bb",
+    "/arithmeticquiz/2.72986349f88c5c1dfd18.chunk.js": "fbda522118b57046919a469b8bec596ca948e2c4",
+    "/arithmeticquiz/assets/icon-128x128.png": "5861575b3d2f645c4c734b018daa2fef77e3d7fb",
+    "/arithmeticquiz/assets/icon-152x152.png": "026bb74b3c0d4cd7199cfedfa1e4affb35d52f04",
+    "/arithmeticquiz/assets/icon-256x256.png": "6af334209d361cda0553780847ea5d8acc54b9cb",
+    "/arithmeticquiz/assets/icon-512x512.png": "c0407cc1f3b514f18367665d41668edfc70db1f5",
+    "/arithmeticquiz/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/arithmeticquiz/index.html": "2e675f860f918bd5abf5961f82c1feee13afbe99",
+    "/arithmeticquiz/inline.0dee458fdffa1adce313.bundle.js": "c712926b9fcb686c9e538a905ed92ee38d926966",
+    "/arithmeticquiz/main.16c40dbf77fd8617f6dd.bundle.js": "da1ad071f02c41ecf91bd37f017024cddfb797c8",
+    "/arithmeticquiz/polyfills.cd6b2adf65942bf28804.bundle.js": "29dcb2fa0d46c778bc94bd3a6ac48c68e4abdc99",
+    "/arithmeticquiz/styles.af60dc5709b8030e14eb.bundle.css": "2348deb638482038e1ba3fef35fd301b82eba9f1"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+    }
+  ]
+}
