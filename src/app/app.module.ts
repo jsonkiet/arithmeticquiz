@@ -22,6 +22,7 @@ import { ArithmeticComponent } from './math/arithmetic/arithmetic.component';
 import { LogoutComponent } from './core/containers/logout.component';
 import { NotFoundComponent } from './core/containers/not-found.component';
 //import { SpinnerService } from './core/services/spinner.service';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 /* 
   Resolved that Issue by downgrading the CLI to v1.6.8.
@@ -50,6 +51,7 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
     CoreModule.forRoot(),
     AuthModule.forRoot(),
+    environment.production ? ServiceWorkerModule.register('ngsw-worker.js') : []
   ],
   bootstrap: [AppComponent],
 //  providers: [SpinnerService]
